@@ -44,33 +44,33 @@ static int RollTheDice(int x, int n, int target)
     const int Modulo = (int)1e9 + 7;
 
     // Previous array for the previous number of dice    
-    var prev = new long[target + 1];
+    var previousDiceResults = new long[target + 1];
 
     // Current array for the current number of dice
-    var curr = new long[target + 1];
+    var currentDiceResults = new long[target + 1];
 
     // Base case: 0 dice, 0 sum = 1 way
-    prev[0] = 1;
+    previousDiceResults[0] = 1;
 
     // For each die
-    for (int dice = 1; dice <= x; dice++)
+    for (int diceCount = 1; diceCount <= x; diceCount++)
     {
-        Array.Fill(curr, 0); // Reset current array
+        Array.Fill(currentDiceResults, 0); // Reset current array
         long windowSum = 0; // Sliding window sum
 
         // For each possible sum
         for (int sum = 1; sum <= target; sum++)
         {
             // Add the value entering the sliding window
-            windowSum = (windowSum + prev[sum - 1]) % Modulo;
+            windowSum = (windowSum + previousDiceResults[sum - 1]) % Modulo;
 
             // Remove the value leaving the sliding window (if window > n)
-            windowSum = curr[sum] = sum > n ? (windowSum - prev[sum - n - 1] + Modulo) % Modulo : windowSum;
+            windowSum = currentDiceResults[sum] = sum > n ? (windowSum - previousDiceResults[sum - n - 1] + Modulo) % Modulo : windowSum;
         }
 
         // Swap arrays for next iteration
-        (prev, curr) = (curr, prev);
+        (previousDiceResults, currentDiceResults) = (currentDiceResults, previousDiceResults);
     }
 
-    return (int)prev[target];
+    return (int)previousDiceResults[target];
 }
