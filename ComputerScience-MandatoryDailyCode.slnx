@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="DiagonalDifference/DiagonalDifference.csproj" Id="19da4b71-9193-4cea-9c9f-c268f8635077" />
+  <Project Path="FindDatesWithinTextConsoleApp/FindDatesWithinTextConsoleApp.csproj" Id="3e8344e2-9678-49ad-b889-f673612d7e6f" />
+  <Project Path="GroceryStoreCheckoutQueue/GroceryStoreCheckoutQueue.csproj" Id="373485ec-8749-4775-8f2e-95cef79d23b2" />
+  <Project Path="HouseRobber/HouseRobber.csproj" Id="6eb0cc32-f3fb-4761-801a-af78de47a8fc" />
+  <Project Path="LetterTally/LetterTally.csproj" Id="afb5c62a-06af-4e01-a976-9219f3274bf2" />
+  <Project Path="MinimumNumberOfJumps/MinimumNumberOfJumps.csproj" Id="54f1f29a-3f75-4ecb-8223-b755d314f230" />
+  <Project Path="NthFibonacci/NthFibonacci.csproj" Id="cb51a924-355f-4383-bf8b-af43d06b9574" />
+  <Project Path="PlusMinus/PlusMinus.csproj" Id="72b9e0c3-a69d-4475-9f31-7b2ca3e95c8e" />
+  <Project Path="PrimeNumbers100To1/PrimeNumbers100To1.csproj" Id="a53d158d-a69c-4dd7-9eba-78be59332b4c" />
+  <Project Path="RollTheDice/RollTheDice.csproj" Id="27760ff3-daa8-49d1-ac6c-d22d60d24fdf" />
+  <Project Path="SplitListByPivot/SplitListByPivot.csproj" Id="3ed0536a-fc6f-44cf-b797-e0cf6ae3f969" />
+  <Project Path="SwapNumbers/SwapNumbers.csproj" Id="ca53f3c3-6e4f-41d1-b6c3-083a0db51e18" />
+  <Project Path="TrappingRainWater/TrappingRainWater.csproj" Id="9fa04202-17c3-4270-b5ec-1a091f77a58b" />
+  <Project Path="VerifyNumberWithOperationsConsoleApp.Tests/VerifyNumberWithOperationsConsoleApp.Tests.csproj" />
+  <Project Path="VerifyNumberWithOperationsConsoleApp/VerifyNumberWithOperationsConsoleApp.csproj" />
+</Solution>
