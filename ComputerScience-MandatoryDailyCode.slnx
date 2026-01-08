@@ -6,6 +6,7 @@
   </Folder>
   <Project Path="DiagonalDifference/DiagonalDifference.csproj" Id="19da4b71-9193-4cea-9c9f-c268f8635077" />
   <Project Path="FindDatesWithinTextConsoleApp/FindDatesWithinTextConsoleApp.csproj" Id="3e8344e2-9678-49ad-b889-f673612d7e6f" />
+  <Project Path="FindMostVisitedPages/FindMostVisitedPages.csproj" Id="a005338b-eb0f-4085-8004-024d2d3f7e50" />
   <Project Path="GroceryStoreCheckoutQueue/GroceryStoreCheckoutQueue.csproj" Id="373485ec-8749-4775-8f2e-95cef79d23b2" />
   <Project Path="HouseRobber/HouseRobber.csproj" Id="6eb0cc32-f3fb-4761-801a-af78de47a8fc" />
   <Project Path="LetterTally/LetterTally.csproj" Id="afb5c62a-06af-4e01-a976-9219f3274bf2" />
