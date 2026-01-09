@@ -12,6 +12,7 @@
   <Project Path="LetterTally/LetterTally.csproj" Id="afb5c62a-06af-4e01-a976-9219f3274bf2" />
   <Project Path="MinimumNumberOfJumps/MinimumNumberOfJumps.csproj" Id="54f1f29a-3f75-4ecb-8223-b755d314f230" />
   <Project Path="MinimumNumberOfOperationsToMakeAnArrayEmpty/MinimumNumberOfOperationsToMakeAnArrayEmpty.csproj" Id="e804359c-9558-4524-ae0d-6883f80b0ff2" />
+  <Project Path="NestedObjectRetrieval/NestedObjectRetrieval.csproj" Id="69c02466-1bdd-4801-a34b-ea8e8b1eb437" />
   <Project Path="NthFibonacci/NthFibonacci.csproj" Id="cb51a924-355f-4383-bf8b-af43d06b9574" />
   <Project Path="PlusMinus/PlusMinus.csproj" Id="72b9e0c3-a69d-4475-9f31-7b2ca3e95c8e" />
   <Project Path="PrimeNumbers100To1/PrimeNumbers100To1.csproj" Id="a53d158d-a69c-4dd7-9eba-78be59332b4c" />
