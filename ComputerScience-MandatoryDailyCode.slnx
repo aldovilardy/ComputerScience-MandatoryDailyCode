@@ -4,6 +4,7 @@
     <File Path="LICENSE" />
     <File Path="README.md" />
   </Folder>
+  <Project Path="CookLasagna/CookLasagna.csproj" Id="60724573-4788-4be4-a3fa-5c4c848f22c4" />
   <Project Path="DaysOfTheWeek/DaysOfTheWeek.csproj" Id="d055b16e-fe30-48b9-97b5-faa2082dbddf" />
   <Project Path="DiagonalDifference/DiagonalDifference.csproj" Id="19da4b71-9193-4cea-9c9f-c268f8635077" />
   <Project Path="FindDatesWithinTextConsoleApp/FindDatesWithinTextConsoleApp.csproj" Id="3e8344e2-9678-49ad-b889-f673612d7e6f" />
